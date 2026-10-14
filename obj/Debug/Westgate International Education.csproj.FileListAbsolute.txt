@@ -1,5 +1,0 @@
-c:\users\owner\documents\visual studio 2012\Projects\Westgate International Education\Westgate International Education\bin\Westgate International Education.dll
-c:\users\owner\documents\visual studio 2012\Projects\Westgate International Education\Westgate International Education\bin\Westgate International Education.pdb
-c:\users\owner\documents\visual studio 2012\Projects\Westgate International Education\Westgate International Education\obj\Debug\Westgate International Education.csprojResolveAssemblyReference.cache
-c:\users\owner\documents\visual studio 2012\Projects\Westgate International Education\Westgate International Education\obj\Debug\Westgate International Education.dll
-c:\users\owner\documents\visual studio 2012\Projects\Westgate International Education\Westgate International Education\obj\Debug\Westgate International Education.pdb
