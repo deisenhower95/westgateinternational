@@ -24,3 +24,71 @@
 html[lang="ja"] .display-hero,html[lang="zh-CN"] .display-hero{font-size:clamp(54px,7.5vw,110px);letter-spacing:-.045em}
 html[lang="ja"] .display,html[lang="zh-CN"] .display{overflow-wrap:anywhere}
 @media(max-width:620px){html[lang="ja"] .display-hero{font-size:clamp(37px,9.6vw,55px)}html[lang="zh-CN"] .display-hero{font-size:clamp(46px,11.2vw,60px)}html[lang="ja"] .chapter-hero .micro-tag,html[lang="zh-CN"] .chapter-hero .micro-tag{max-width:260px}}
+
+/* About Westgate: sector expertise and founder introduction */
+.chapter-about{min-height:1220px;padding-top:125px;padding-bottom:100px}
+.about-content{width:min(690px,100%);margin-right:1.7vw}
+.chapter-about .display{font-size:clamp(48px,5.6vw,85px);margin:18px 0 21px}
+.chapter-about .micro-tag{margin-bottom:17px}
+.chapter-about .chapter-text{font-size:clamp(15px,1.25vw,18px);line-height:1.75;max-width:660px}
+.about-intro{margin-bottom:29px}
+.about-strengths{display:grid;grid-template-columns:.85fr 1.15fr;gap:15px;margin:25px 0}
+.about-strength{padding:18px 17px 16px;border:1px solid rgba(255,255,255,.24);background:rgba(8,34,50,.59);display:flex;gap:15px;align-items:center;min-height:129px}
+.strength-number{font:500 49px/.9 'Playfair Display',Georgia,serif;letter-spacing:-.07em;color:#eed0be;white-space:nowrap}
+.strength-plus{font:500 22px 'DM Sans',sans-serif;vertical-align:top;padding-left:2px}
+.strength-symbol{font:400 50px/.9 Georgia,serif;color:#d9af9c;flex:0 0 auto}
+.about-strength strong{font:700 10px 'DM Sans',sans-serif;letter-spacing:.11em;text-transform:uppercase;color:#fff;display:block;margin-bottom:8px}
+.about-strength p{font-size:12px;line-height:1.6;color:rgba(255,255,255,.75);margin:0}
+.founder-teaser{border-top:1px solid rgba(255,255,255,.27);border-bottom:1px solid rgba(255,255,255,.27);background:linear-gradient(110deg,rgba(6,29,46,.84),rgba(15,50,63,.52));padding:19px 24px 23px}
+.founder-teaser-top{display:flex;align-items:center;gap:14px;margin-bottom:13px}
+.founder-kicker{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:#efd0c1;font-weight:800}
+.founder-rule{height:1px;background:rgba(255,255,255,.18);flex:1}
+.founder-id{font-size:9px;color:rgba(255,255,255,.42);letter-spacing:.12em}
+.founder-teaser-grid{display:grid;grid-template-columns:115px 1fr;gap:22px;align-items:center}
+.founder-monogram{height:132px;border:1px solid rgba(219,169,151,.7);display:grid;place-items:center;font:italic 500 55px 'Playfair Display',serif;color:#f0d6ca;letter-spacing:-.12em;position:relative}
+.founder-monogram::after{content:'';position:absolute;inset:9px;border:1px solid rgba(219,169,151,.25)}
+.monogram-dot{color:#c04449}
+.founder-teaser-copy h3{font:500 30px/.98 'Playfair Display',serif;margin:0 0 8px;letter-spacing:-.03em}
+.founder-role{font-size:10px;letter-spacing:.12em;font-weight:800;text-transform:uppercase;color:#e8b8a7}
+.founder-teaser-copy p{font-size:13px;line-height:1.65;color:rgba(255,255,255,.81);margin:11px 0 9px}
+.founder-read-link{display:inline-flex;align-items:center;justify-content:space-between;gap:18px;color:#f9d6c7;border-bottom:1px solid #cf8f82;padding:7px 0;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.13em}
+.founder-read-link:hover{color:#fff;border-color:#fff}
+.chapter-about .location-pair{margin-top:20px;padding-top:18px}
+/* Founder page: an editorial profile with a graphical monogram, no unapproved portrait */
+.founder-page .founder-banner{padding-top:165px;padding-bottom:100px;min-height:680px;background:linear-gradient(112deg,#0a2437,#183b50 68%,#274352)}
+.founder-page .founder-banner::before{opacity:.1}
+.founder-hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:clamp(28px,6vw,90px)}
+.founder-hero-copy{position:relative;z-index:2}
+.founder-page .founder-banner h1{font:500 clamp(64px,8vw,129px)/.98 'Playfair Display',Georgia,serif;margin:24px 0 16px;letter-spacing:-.06em}
+.founder-page .founder-banner h1 em{color:#e5b7a9;font-style:italic}
+.founder-banner-role{text-transform:uppercase;letter-spacing:.19em;font-weight:700;font-size:11px!important;margin:0 0 22px!important;color:#e0b8a9!important}
+.founder-page .founder-banner .founder-banner-intro{max-width:585px;font-size:clamp(15px,1.5vw,18px);line-height:1.75;margin:0 0 32px;color:rgba(255,255,255,.8)}
+.founder-portrait-art{aspect-ratio:.85;background:linear-gradient(153deg,#3c5d6b 0%,#10273a 51%,#421f2b 100%);border:1px solid rgba(255,255,255,.21);position:relative;display:grid;place-items:center;overflow:hidden;box-shadow:30px 35px 70px rgba(0,0,0,.14)}
+.founder-portrait-art::before{content:'';position:absolute;inset:12px;border:1px solid rgba(248,217,202,.22)}
+.portrait-rings{position:absolute;width:88%;aspect-ratio:1;border-radius:50%;border:1px solid rgba(239,193,177,.29);box-shadow:0 0 0 26px rgba(232,197,180,.035),0 0 0 63px rgba(232,197,180,.04)}
+.portrait-accent{position:absolute;right:13%;top:9%;font:42px Georgia,serif;color:#deb5a1}
+.portrait-initials{position:relative;z-index:2;font:italic 500 clamp(94px,13vw,200px)/1 'Playfair Display',serif;letter-spacing:-.18em;color:#fff6ee;margin-right:12%}
+.portrait-initials span{color:#dd9e92}
+.portrait-label{position:absolute;bottom:29px;left:30px;font-size:9px;letter-spacing:.22em;color:rgba(255,255,255,.6)}
+.founder-story{background:#f7f5f0;padding:120px max(8vw,24px);color:#1c3647}
+.founder-story .container,.founder-bottom-cta .container{max-width:1300px;margin:auto}
+.founder-story-grid{display:grid;grid-template-columns:.7fr 1fr;gap:clamp(40px,7vw,110px)}
+.founder-story .section-kicker,.founder-bottom-cta .section-kicker{font-size:11px;font-weight:800;color:#ad3743;text-transform:uppercase;letter-spacing:.18em}
+.founder-story h2{font:500 clamp(43px,4.8vw,69px)/1.1 'Playfair Display',Georgia,serif;letter-spacing:-.04em;margin:24px 0 0;max-width:530px}
+.story-main{padding-top:15px}
+.story-main p{font-size:16px;line-height:1.9;color:#60727c;margin:0 0 22px}
+.story-main .story-lead{color:#253e4c;font-size:clamp(18px,1.7vw,22px);line-height:1.8}
+.founder-facts{border-top:1px solid #d6d5d0;margin-top:50px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.founder-facts div{padding:22px 12px 12px 0;border-right:1px solid #d6d5d0;margin-right:15px}
+.founder-facts div:last-child{border-right:0;margin-right:0}
+.founder-facts span{display:block;color:#b13740;font-weight:800;font-size:11px;letter-spacing:.16em;margin-bottom:16px}
+.founder-facts strong{display:block;font:500 clamp(17px,1.8vw,23px)/1.25 'Playfair Display',serif}
+.founder-bottom-cta{background:#102b3e;color:white;padding:100px max(8vw,24px)}
+.founder-bottom-inner{display:flex;gap:28px;align-items:center;justify-content:space-between}
+.founder-bottom-cta h2{font:500 clamp(43px,5vw,72px)/1.1 'Playfair Display',serif;letter-spacing:-.05em;margin:14px 0 17px}
+.founder-bottom-cta p{color:rgba(255,255,255,.7);font-size:15px;line-height:1.6}
+.founder-bottom-actions{display:flex;flex-wrap:wrap;gap:10px;flex-shrink:0}
+.btn-red{background:var(--red);border-color:var(--red);color:#fff}.btn-outline-light{border-color:rgba(255,255,255,.46);color:#fff}
+@media(max-width:1150px){.about-content{margin-right:0}.chapter-about{justify-content:center}.founder-hero-grid{gap:30px}}
+@media(max-width:850px){.chapter-about{min-height:unset;padding:145px 8vw 115px}.about-content{padding:0;background:none}.founder-hero-grid{grid-template-columns:1fr .75fr}.founder-story-grid{grid-template-columns:1fr;gap:27px}.founder-story h2{max-width:720px}.founder-bottom-inner{align-items:flex-start;flex-direction:column}}
+@media(max-width:620px){.chapter-about{padding:110px 24px 95px}.chapter-about .display{font-size:clamp(46px,9.5vw,65px)}.about-strengths{grid-template-columns:1fr;gap:10px}.about-strength{min-height:93px;padding:13px 17px}.about-strength p{font-size:12px}.founder-teaser{padding:16px 15px 19px}.founder-teaser-grid{grid-template-columns:72px 1fr;gap:15px;align-items:start}.founder-monogram{height:91px;font-size:35px}.founder-teaser-copy h3{font-size:26px}.founder-teaser-copy p{font-size:12px;line-height:1.65}.founder-teaser-top{flex-wrap:wrap}.location-pair{gap:13px}.founder-page .founder-banner{padding:137px 23px 70px}.founder-hero-grid{grid-template-columns:1fr}.founder-page .founder-banner h1{font-size:clamp(62px,14vw,89px)}.founder-portrait-art{max-height:340px;aspect-ratio:1.45}.portrait-initials{font-size:120px}.founder-story{padding:75px 24px}.founder-facts{grid-template-columns:1fr;gap:0}.founder-facts div{border-right:0;border-bottom:1px solid #d6d5d0;margin:0;padding:18px 0}.founder-facts strong{font-size:21px}.founder-bottom-cta{padding:75px 24px}.founder-bottom-actions{width:100%}}

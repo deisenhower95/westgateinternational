@@ -6,6 +6,7 @@ WHAT IS INCLUDED
 index.html         Lightweight redirect to home.html (required for GitHub Pages root URL)
 home.html          Five-chapter, scroll-controlled Three.js landing page
 services.html      Separate Services page with the eight offerings
+founder.html       Founder profile and biography (ready for future expansion)
 assets/styles.css  Design, mobile layout, animations, fallback styling
 assets/site.js     English / Japanese / Simplified Chinese UI and inquiry form
 assets/experience.js  Procedural Three.js scene with camera-driven scroll movement
@@ -70,3 +71,11 @@ LICENSE NOTES
 Website layout and procedural scene code are custom for Westgate. Three.js
 remains subject to its MIT license on its upstream CDN. Fonts are requested
 from Google Fonts when online; fallback system fonts are included.
+
+FOUNDER PROFILE UPDATE (OCT 2026)
+---------------------------------
+Home About section now includes 20+ years of experience, network highlights,
+and a short Maxwell Ranson introduction with a Read on link to founder.html.
+Founder copy is limited to the biographical details supplied by the client.
+Replace the founder monogram graphic with an approved portrait if available.
+Confirm the 20+ years and tutor-network descriptions with the client.
